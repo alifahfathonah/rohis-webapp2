@@ -1,0 +1,38 @@
+
+.center { text-align: center;
+ }
+  .pagination { 
+  	display: inline-block;
+  	 } .pagination a , .pagination strong{
+  	  color: black;
+  	  float: left; 
+  	  padding: 5px 10px;
+  	  text-decoration: none; 
+  	  transition: background-color .2s;
+  	  border: 1px solid #ddd;
+  	  margin: 0 2px;
+  	       }
+  	        .pagination a.active, .pagination strong{
+	  background-color: #4CAF50;
+	  color: white;
+	  border: 1px solid #4CAF50; 
+	} 
+	  .pagination a:hover:not(.active), .pagination strong{
+	   background-color: #ddd;
+	   color: white; float: left;
+	   padding: 5px 10px; 
+	   text-decoration: none;
+	   transition: background-color .2s;
+	   border: 1px solid #ddd;
+	   margin: 0 2px;
+	   background: #54B76E;
+  	             }
+    #datatable-buttons thead tr th{
+        background: #2A3F54;
+        text-align: center;
+        vertical-align: center;
+        color:white;
+        border:2px solid #2A3F54;
+    }
+    
+    
